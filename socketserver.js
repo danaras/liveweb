@@ -6,7 +6,7 @@ httpServer.listen(8080);
 
 function requestHandler(req, res) {
 	// Read index.html
-	fs.readFile(__dirname + '/webrtc.html', 
+	fs.readFile(__dirname + '/index.html', 
 		// Callback function for reading
 		function (err, data) {
 			// if there is an error
